@@ -1,0 +1,17 @@
+name: Actualización automática
+
+on:
+  push:
+    branches:
+      - main   # o master si usas esa rama
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Repo actualizado
+        run: echo "Se detectó un cambio y el workflow se ejecutó"
