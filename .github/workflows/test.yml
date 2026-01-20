@@ -3,7 +3,7 @@ name: Actualización automática
 on:
   push:
     branches:
-      - main   # o master si usas esa rama
+      - main
 
 jobs:
   update:
