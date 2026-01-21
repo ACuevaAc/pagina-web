@@ -8,4 +8,4 @@ Sitio web corporativo para una empresa de servicios tecnológicos.
 
 ## Despliegue
 El proyecto se despliega automáticamente mediante GitHub Pages
-y GitHub Actions, prueba GitHub Actions
+y GitHub Actions.
