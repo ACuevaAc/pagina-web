@@ -12,6 +12,3 @@ jobs:
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
-
-      - name: Repo actualizado
-        run: echo "Se detectó un cambio y el workflow se ejecutó"
