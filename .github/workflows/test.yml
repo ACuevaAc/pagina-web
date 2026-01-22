@@ -3,7 +3,7 @@ name: Actualización automática
 on:
   push:
     branches:
-      - main
+      - prod
 
 jobs:
   update:
